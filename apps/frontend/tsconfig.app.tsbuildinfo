@@ -1,0 +1,1 @@
+{"root":["./src/main.ts","./src/vite-env.d.ts","./src/services/api.ts","./src/types/suggestion.ts","./src/app.vue","./src/components/repairreport.vue","./src/components/suggestionpanel.vue"],"version":"5.9.3"}
