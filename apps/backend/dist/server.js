@@ -39,7 +39,7 @@ server.register(static_1.default, {
 // Vue frontend — production build serve karta hai
 // local dev me ye folder nahi hoga, isliye check karte hain
 const fs_1 = __importDefault(require("fs"));
-const frontendDist = path_1.default.join(process.cwd(), "../frontend/dist");
+const frontendDist = path_1.default.join(process.cwd(), "public");
 if (fs_1.default.existsSync(frontendDist)) {
     server.register(static_1.default, {
         root: frontendDist,
