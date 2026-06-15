@@ -41,7 +41,7 @@ server.register(fastifyStatic, {
 // Vue frontend — production build serve karta hai
 // local dev me ye folder nahi hoga, isliye check karte hain
 import fs from "fs";
-const frontendDist = path.join(process.cwd(), "../frontend/dist");
+const frontendDist = path.join(process.cwd(), "public");
 
 if (fs.existsSync(frontendDist)) {
   server.register(fastifyStatic, {
